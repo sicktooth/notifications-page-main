@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+#dFont {
+    font-family: 'Plus Jakarta Sans';
+}
+.dbgColor {
+    background-color: hsl(210, 60%, 98%);
+}
+.bgNumb {
+    background-color: hsl(219, 85%, 26%);
+}

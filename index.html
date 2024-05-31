@@ -6,6 +6,10 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/output.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Notifications page</title>
 
@@ -14,13 +18,16 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="text-base dbgColor" id="dFont">
 
   <main class="container mx-auto">
-    <section class="px-2 pt-4 pb-1.5 text-center place-content-center bg-emerald-400">
+    <section class="px-2 pt-4 pb-1.5 text-center place-content-center bg-white">
       <div class="flex">
-        <h3>Notifications</h3>
-        <div>3</div>
+        <div class="flex">
+          <h3 class="font-extrabold">Notifications</h3>
+          <div class="bgNumb rounded-md p-1 text-white">3</div>
+        </div>
+        <div class="text-sm ml-auto">Mark all as read</div>
       </div>
 
       <footer class="attribution">
