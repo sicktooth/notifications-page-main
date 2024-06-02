@@ -554,79 +554,65 @@ video {
   --tw-contain-style:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.ml-auto {
-  margin-left: auto;
 }
 
 .ml-2 {
   margin-left: 0.5rem;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.inline {
+  display: inline;
 }
 
 .flex {
   display: flex;
 }
 
-.h-1 {
-  height: 0.25rem;
+.h-12 {
+  height: 3rem;
 }
 
 .h-6 {
   height: 1.5rem;
 }
 
-.w-1 {
-  width: 0.25rem;
+.w-12 {
+  width: 3rem;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .w-6 {
   width: 1.5rem;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
+.flex-col {
+  flex-direction: column;
 }
 
 .flex-wrap {
@@ -645,28 +631,33 @@ video {
   border-radius: 0.125rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-1 {
-  padding: 0.25rem;
+.p-3 {
+  padding: 0.75rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.p-9 {
+  padding: 2.25rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.p-6 {
+  padding: 1.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-6 {
@@ -682,10 +673,6 @@ video {
   padding-bottom: 0.375rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -698,8 +685,8 @@ video {
   text-align: center;
 }
 
-.align-middle {
-  vertical-align: middle;
+.text-start {
+  text-align: start;
 }
 
 .text-base {
@@ -710,6 +697,10 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-extrabold {
@@ -731,4 +722,8 @@ video {
 
 .bgNumb {
   background-color: hsl(219, 85%, 26%);
+}
+
+.notifyBgColor {
+  background-color: hsl(210, 60%, 98%);
 }
