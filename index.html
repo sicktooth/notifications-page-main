@@ -18,7 +18,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="text-base dbgColor" id="dFont">
+<body class="dbgColor" id="dFont">
 
   
   
@@ -27,7 +27,7 @@
 
       <nav class="flex">
         <header class="flex">
-          <h1>Notifications</h1>
+          <h1 class="font-bold text-lg">Notifications</h1>
           <var class="bgNumb rounded-md pb-2 text-white w-6 h-6 ml-2">3</var>
         </header>
         <div class="text-sm ml-auto">Mark all as read</div>
@@ -35,16 +35,29 @@
       
       <section class="mt-9">
 
-        <article class="flex notifyBgColor p-5 rounded-xl">
-          <img src="./assets/images/avatar-mark-webber.webp" class="w-12 h-12 mr-4" alt="">
+        <article class="flex notifyBgColor p-5 rounded-xl mb-2">
+          <img src="./assets/images/avatar-mark-webber.webp" class="w-12 h-12 mr-4" alt="Mark's dp">
           <div class="flex flex-col text-start">
             <div class="flex flex-wrap">
               <h2 class="font-bold mr-2">Mark Webber</h2>
-              <p>reacted to your recent post My first tournament today!</p>
+              <p>reacted to your recent post<strong class="postColor ml-1.5">My first tournament today!</strong></p>
             </div>
-            <div class="inline">1m ago</div>
+            <div class="inline timeColor">1m ago</div>
           </div>
         </article>
+
+        <article class="flex notifyBgColor p-5 rounded-xl mb-2">
+          <img src="./assets/images/avatar-angela-gray.webp" class="w-12 h-12 mr-4" alt="Angela's dp">
+          <div class="flex flex-col text-start">
+            <div class="flex flex-wrap">
+              <h2 class="font-bold mr-2">Angela Grey</h2>
+              <p>followed you</p>
+            </div>
+            <div class="inline timeColor">5m ago</div>
+          </div>
+        </article>
+
+        <div class="test w-12 h-12"></div>
 
       </section>
 
@@ -69,7 +82,7 @@
   
   
 
-  Angela Gray followed you
+  
   5m ago
 
   Jacob Thompson has joined your group Chess Club
