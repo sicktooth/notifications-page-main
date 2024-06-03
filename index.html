@@ -23,11 +23,11 @@
   
   
   <main class="w-2/3 mx-auto mt-8">
-    <section class="px-6 pt-7 pb-1.5 text-center place-content-center bg-white">
+    <section class="px-6 pt-7 pb-1.5 text-center place-content-center bg-white rounded-2xl">
 
       <nav class="flex">
-        <header class="flex">
-          <h1 class="font-bold text-lg">Notifications</h1>
+        <header class="flex items-center">
+          <h1 class="font-black text-lg">Notifications</h1>
           <var class="bgNumb rounded-md pb-2 text-white w-6 h-6 ml-2">3</var>
         </header>
         <div class="text-sm ml-auto">Mark all as read</div>
@@ -38,9 +38,10 @@
         <article class="flex notifyBgColor p-5 rounded-xl mb-2">
           <img src="./assets/images/avatar-mark-webber.webp" class="w-12 h-12 mr-4" alt="Mark's dp">
           <div class="flex flex-col text-start">
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap items-center">
               <h2 class="font-bold mr-2">Mark Webber</h2>
               <p>reacted to your recent post<strong class="postColor ml-1.5">My first tournament today!</strong></p>
+              <div class="ml-2 w-2 h-2 redDot rounded-full"></div>
             </div>
             <div class="inline timeColor">1m ago</div>
           </div>
@@ -49,9 +50,22 @@
         <article class="flex notifyBgColor p-5 rounded-xl mb-2">
           <img src="./assets/images/avatar-angela-gray.webp" class="w-12 h-12 mr-4" alt="Angela's dp">
           <div class="flex flex-col text-start">
-            <div class="flex flex-wrap">
+            <div class="flex flex-wrap items-center">
               <h2 class="font-bold mr-2">Angela Grey</h2>
               <p>followed you</p>
+              <div class="ml-2 w-2 h-2 redDot rounded-full"></div>
+            </div>
+            <div class="inline timeColor">5m ago</div>
+          </div>
+        </article>
+
+        <article class="flex notifyBgColor p-5 rounded-xl mb-2">
+          <img src="./assets/images/avatar-jacob-thompson.webp" class="w-12 h-12 mr-4" alt="Jacob's dp">
+          <div class="flex flex-col text-start">
+            <div class="flex flex-wrap items-center">
+              <h2 class="font-bold mr-2">Jacob Thompson</h2>
+              <p>has joined your group <strong class="gNameColor font-black">Chess Club</strong></p>
+              <div class="ml-2 w-2 h-2 redDot rounded-full"></div>
             </div>
             <div class="inline timeColor">5m ago</div>
           </div>
@@ -85,7 +99,7 @@
   
   5m ago
 
-  Jacob Thompson has joined your group Chess Club
+    
   1 day ago
 
   Rizky Hasanuddin sent you a private message

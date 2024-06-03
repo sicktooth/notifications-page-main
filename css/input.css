@@ -14,6 +14,10 @@
     background-color: hsl(219, 85%, 26%);
 }
 
+.redDot {
+    background-color: hsl(1, 90%, 64%);
+}
+
 .notifyBgColor {
     background-color: hsl(210, 60%, 98%);
 }
@@ -22,10 +26,14 @@
     color: hsl(0, 1%, 36%);
 }
 
+.gNameColor {
+    color:  hsl(219, 85%, 26%);
+}
+
 .timeColor {
     color: hsl(0, 0%, 46%);
 }
 
 .test {
-    background-color: hsl(205, 33%, 90%);
+    background-color:  hsl(219, 85%, 26%);
 }
