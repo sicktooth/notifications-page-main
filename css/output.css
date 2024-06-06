@@ -607,6 +607,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -631,16 +635,12 @@ video {
   width: 0.5rem;
 }
 
-.w-2\/3 {
-  width: 66.666667%;
+.w-2\/4 {
+  width: 50%;
 }
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-2\/4 {
-  width: 50%;
 }
 
 .flex-col {
