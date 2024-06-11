@@ -599,6 +599,10 @@ video {
   margin-top: 2.25rem;
 }
 
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .inline {
   display: inline;
 }
@@ -655,14 +659,6 @@ video {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
-.justify-items-end {
-  justify-items: end;
-}
-
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -713,12 +709,12 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pt-7 {
-  padding-top: 1.75rem;
-}
-
 .pb-3 {
   padding-bottom: 0.75rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
 }
 
 .text-center {
