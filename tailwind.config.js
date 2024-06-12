@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'groupHoverColor': 'color: hsl(219, 14%, 63%)'
+        'groupHoverColor': 'hsl(219, 14%, 63%)'
       }
     },
   },

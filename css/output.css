@@ -797,3 +797,8 @@ video {
 .test {
   background-color:  hsl(219, 14%, 63%);
 }
+
+.hover\:text-groupHoverColor:hover {
+  --tw-text-opacity: 1;
+  color: hsl(219 14% 63% / var(--tw-text-opacity));
+}
