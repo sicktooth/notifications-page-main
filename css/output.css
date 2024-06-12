@@ -793,16 +793,8 @@ video {
   color: hsl(0, 0%, 46%);
 }
 
-.groupHoverColor {
-  color: hsl(219, 14%, 63%);
-}
-
 .test {
   background-color:  hsl(211, 68%, 94%);
-}
-
-.visited\:text-groupHoverColor:visited {
-  color: hsl(219 14% 63% );
 }
 
 .hover\:bg-PMHoverColor:hover {
@@ -810,17 +802,12 @@ video {
   background-color: hsl(211 68% 94% / var(--tw-bg-opacity));
 }
 
-.hover\:text-groupHoverColor:hover {
-  --tw-text-opacity: 1;
-  color: hsl(219 14% 63% / var(--tw-text-opacity));
-}
-
 .hover\:text-gNameColor:hover {
   --tw-text-opacity: 1;
   color: hsl(219 85% 26% / var(--tw-text-opacity));
 }
 
-.active\:text-groupHoverColor:active {
+.hover\:text-groupHoverColor:hover {
   --tw-text-opacity: 1;
   color: hsl(219 14% 63% / var(--tw-text-opacity));
 }
