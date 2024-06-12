@@ -34,6 +34,10 @@
     color: hsl(0, 0%, 46%);
 }
 
+.groupHoverColor {
+    color: hsl(219, 14%, 63%);
+}
+
 .test {
-    background-color:  hsl(219, 85%, 26%);
+    background-color:  hsl(219, 14%, 63%);
 }

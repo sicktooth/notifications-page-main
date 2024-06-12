@@ -3,14 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta name="description" content="Notifications page">
+    <meta name="keywords" content="HTML, CSS, Frontend Mentor, Frontend, Mentor, Samuel Ogboru">
+    <meta name="author" content="Samuel Ogboru">
+    <meta name="robots" content="index, follow">
 
+            <!-- FAVICON -->
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <link rel="stylesheet" href="./css/output.css">
+            <!--  -->
 
+            <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-    
+            <!--  -->
+
+            <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <!--  -->
     <title>Frontend Mentor | Notifications page</title>
 
     <style>
@@ -23,14 +34,14 @@
     
     
     <main class="w-2/4 mx-auto mt-8">
-      <section class="px-6 pt-7 pb-1.5 text-center place-content-center bg-white rounded-2xl">
+      <section class="px-6 pt-7 pb-1.5 text-center place-content-center bg-white rounded-2xl shadow-lg">
 
         <nav class="flex">
           <header class="flex items-center">
             <h1 class="font-black text-lg">Notifications</h1>
             <var class="bgNumb rounded-md pb-2 text-white w-6 h-6 ml-2">3</var>
           </header>
-          <div class="text-sm ml-auto">Mark all as read</div>
+          <div class="text-sm ml-auto cursor-pointer clearRead">Mark all as read</div>
         </nav>
         
         <section class="mt-9">
@@ -41,7 +52,7 @@
               <div class="flex flex-wrap items-center">
                 <h2 class="font-bold mr-2">Mark Webber</h2>
                 <p>reacted to your recent post<strong class="postColor ml-1.5">My first tournament today!</strong></p>
-                <div class="ml-2 w-2 h-2 redDot rounded-full"></div>
+                <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
               </div>
               <div class="inline timeColor">1m ago</div>
             </div>
@@ -53,7 +64,7 @@
               <div class="flex flex-wrap items-center">
                 <h2 class="font-bold mr-2">Angela Grey</h2>
                 <p>followed you</p>
-                <div class="ml-2 w-2 h-2 redDot rounded-full"></div>
+                <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
               </div>
               <div class="inline timeColor">5m ago</div>
             </div>
@@ -65,7 +76,7 @@
               <div class="flex flex-wrap items-center">
                 <h2 class="font-bold mr-2">Jacob Thompson</h2>
                 <p>has joined your group <strong class="gNameColor font-black">Chess Club</strong></p>
-                <div class="ml-2 w-2 h-2 redDot rounded-full"></div>
+                <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
               </div>
               <div class="inline timeColor">1 day ago</div>
             </div>
@@ -79,7 +90,7 @@
                 <p>sent you a private message</p>
               </div>
               <div class="inline timeColor">5 days ago</div>
-              <div class="border p-4 mt-2">
+              <div class="border p-4 mt-2 hover:">
                 Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
                 I'm already having lots of fun and improving my game.
               </div>
@@ -97,16 +108,16 @@
                 <div class="inline timeColor">1 week ago</div>
               </div>
             </div>
-            <img src="./assets/images/image-chess.webp" class="w-11 ml-auto" alt="my pic"> 
+            <img src="./assets/images/image-chess.webp" class="w-11 ml-auto cursor-pointer" alt="my pic"> 
           </article>
 
           <article class="flex p-5 rounded-xl mb-2">
             <img src="./assets/images/avatar-nathan-peterson.webp" class="w-12 h-12 mr-4" alt="Nathan's dp">
             <div class="flex flex-col text-start">
-              <div class="flex flex-wrap items-center">
-                <h2 class="font-bold mr-2">Nathan Peterson</h2>
-                <p>reacted to your recent post<strong class="postColor ml-1.5">5 end-game strategies to increase your win rate</strong></p>
-              </div>
+              <!-- <div class="flex flex-wrap items-center"> -->
+                
+                <p><strong class="font-bold mr-2">Nathan Peterson</strong>reacted to your recent post<strong class="postColor ml-1.5">5 end-game strategies to increase your win rate</strong></p>
+              <!-- </div> -->
               <div class="inline timeColor">2 weeks ago</div>
             </div>
           </article>
@@ -116,23 +127,24 @@
             <div class="flex flex-col text-start">
               <div class="flex flex-wrap items-center">
                 <h2 class="font-bold mr-2">Anna Kim</h2>
-                <p>left the group <strong class="gNameColor font-black">Chess Club</strong></p>
+                <p>left the group <strong class="gNameColor font-black hover:text-groupHoverColor cursor-pointer">Chess Club</strong></p>
               </div>
               <div class="inline timeColor">2 weeks ago</div>
             </div>
           </article>
 
-          <!-- <div class="test w-12 h-12"></div> -->
+          <div class="test w-12 h-12"></div>
 
         </section>
 
       </section>
 
-      <footer class="attribution pb-3">
+      <footer class="attribution pb-3 pt-5">
         Coded by <a href="https://sicktooth.github.io/portfolio/">Samuel Ogboru</a>.
       </footer>
       
       
     </main>
   </body>
+  <script src="./index.js"></script>
 </html>
