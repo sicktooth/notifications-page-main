@@ -10,24 +10,13 @@
 .dbgColor {
     background-color: hsl(210, 60%, 98%);
 }
-.bgNumb {
-    background-color: hsl(219, 85%, 26%);
-}
 
 .redDot {
     background-color: hsl(1, 90%, 64%);
 }
 
-.notifyBgColor {
-    background-color: hsl(210, 60%, 98%);
-}
-
 .postColor { 
     color: hsl(0, 1%, 36%);
-}
-
-.gNameColor {
-    color:  hsl(219, 85%, 26%);
 }
 
 .timeColor {
@@ -39,5 +28,5 @@
 }
 
 .test {
-    background-color:  hsl(219, 14%, 63%);
+    background-color:  hsl(211, 68%, 94%);
 }

@@ -39,18 +39,18 @@
         <nav class="flex">
           <header class="flex items-center">
             <h1 class="font-black text-lg">Notifications</h1>
-            <var class="bgNumb rounded-md pb-2 text-white w-6 h-6 ml-2">3</var>
+            <var class="bg-gNameColor rounded-md pb-2 text-white w-6 h-6 ml-2">3</var>
           </header>
           <div class="text-sm ml-auto cursor-pointer clearRead">Mark all as read</div>
         </nav>
         
         <section class="mt-9">
           
-          <article class="flex notifyBgColor p-5 rounded-xl mb-2">
+          <article class="flex bg-newNotifyBgColor p-5 rounded-xl mb-2 removeBg">
             <img src="./assets/images/avatar-mark-webber.webp" class="w-12 h-12 mr-4" alt="Mark's dp">
             <div class="flex flex-col text-start">
               <div class="flex flex-wrap items-center">
-                <h2 class="font-bold mr-2">Mark Webber</h2>
+                <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Mark Webber</h2>
                 <p>reacted to your recent post<strong class="postColor ml-1.5">My first tournament today!</strong></p>
                 <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
               </div>
@@ -58,11 +58,11 @@
             </div>
           </article>
 
-          <article class="flex notifyBgColor p-5 rounded-xl mb-2">
+          <article class="flex bg-newNotifyBgColor p-5 rounded-xl mb-2 removeBg">
             <img src="./assets/images/avatar-angela-gray.webp" class="w-12 h-12 mr-4" alt="Angela's dp">
             <div class="flex flex-col text-start">
               <div class="flex flex-wrap items-center">
-                <h2 class="font-bold mr-2">Angela Grey</h2>
+                <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Angela Grey</h2>
                 <p>followed you</p>
                 <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
               </div>
@@ -70,12 +70,12 @@
             </div>
           </article>
 
-          <article class="flex notifyBgColor p-5 rounded-xl mb-2">
+          <article class="flex bg-newNotifyBgColor p-5 rounded-xl mb-2 removeBg">
             <img src="./assets/images/avatar-jacob-thompson.webp" class="w-12 h-12 mr-4" alt="Jacob's dp">
             <div class="flex flex-col text-start">
               <div class="flex flex-wrap items-center">
-                <h2 class="font-bold mr-2">Jacob Thompson</h2>
-                <p>has joined your group <strong class="gNameColor font-black">Chess Club</strong></p>
+                <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Jacob Thompson</h2>
+                <p>has joined your group <strong class="text-gNameColor font-black cursor-pointer">Chess Club</strong></p>
                 <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
               </div>
               <div class="inline timeColor">1 day ago</div>
@@ -86,11 +86,11 @@
             <img src="./assets/images/avatar-rizky-hasanuddin.webp" class="w-12 h-12 mr-4" alt="Rizky's dp">
             <div class="flex flex-col text-start">
               <div class="flex flex-wrap items-center">
-                <h2 class="font-bold mr-2">Rizky Hasanuddin</h2>
+                <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Rizky Hasanuddin</h2>
                 <p>sent you a private message</p>
               </div>
               <div class="inline timeColor">5 days ago</div>
-              <div class="border p-4 mt-2 hover:">
+              <div class="border p-4 mt-2 cursor-pointer hover:bg-PMHoverColor">
                 Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
                 I'm already having lots of fun and improving my game.
               </div>
@@ -102,7 +102,7 @@
             <div class="flex">
               <div class="flex flex-col text-start">
                 <div class="flex flex-wrap items-center">
-                  <h2 class="font-bold mr-2">Kimberly Smith</h2>
+                  <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Kimberly Smith</h2>
                   <p>commented on your picture</p>
                 </div>
                 <div class="inline timeColor">1 week ago</div>
@@ -116,7 +116,7 @@
             <div class="flex flex-col text-start">
               <!-- <div class="flex flex-wrap items-center"> -->
                 
-                <p><strong class="font-bold mr-2">Nathan Peterson</strong>reacted to your recent post<strong class="postColor ml-1.5">5 end-game strategies to increase your win rate</strong></p>
+                <p><strong class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Nathan Peterson</strong>reacted to your recent post<strong class="postColor ml-1.5">5 end-game strategies to increase your win rate</strong></p>
               <!-- </div> -->
               <div class="inline timeColor">2 weeks ago</div>
             </div>
@@ -126,8 +126,8 @@
             <img src="./assets/images/avatar-anna-kim.webp" class="w-12 h-12 mr-4" alt="Anna's dp">
             <div class="flex flex-col text-start">
               <div class="flex flex-wrap items-center">
-                <h2 class="font-bold mr-2">Anna Kim</h2>
-                <p>left the group <strong class="gNameColor font-black hover:text-groupHoverColor cursor-pointer">Chess Club</strong></p>
+                <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Anna Kim</h2>
+                <p>left the group <a href="#"><strong class="text-gNameColor font-black hover:text-groupHoverColor cursor-pointer">Chess Club</strong></a></p>
               </div>
               <div class="inline timeColor">2 weeks ago</div>
             </div>

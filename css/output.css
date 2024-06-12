@@ -679,6 +679,16 @@ video {
   border-width: 1px;
 }
 
+.bg-gNameColor {
+  --tw-bg-opacity: 1;
+  background-color: hsl(219 85% 26% / var(--tw-bg-opacity));
+}
+
+.bg-newNotifyBgColor {
+  --tw-bg-opacity: 1;
+  background-color: hsl(210 60% 98% / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -747,6 +757,11 @@ video {
   font-weight: 700;
 }
 
+.text-gNameColor {
+  --tw-text-opacity: 1;
+  color: hsl(219 85% 26% / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -766,24 +781,12 @@ video {
   background-color: hsl(210, 60%, 98%);
 }
 
-.bgNumb {
-  background-color: hsl(219, 85%, 26%);
-}
-
 .redDot {
   background-color: hsl(1, 90%, 64%);
 }
 
-.notifyBgColor {
-  background-color: hsl(210, 60%, 98%);
-}
-
 .postColor {
   color: hsl(0, 1%, 36%);
-}
-
-.gNameColor {
-  color:  hsl(219, 85%, 26%);
 }
 
 .timeColor {
@@ -795,10 +798,29 @@ video {
 }
 
 .test {
-  background-color:  hsl(219, 14%, 63%);
+  background-color:  hsl(211, 68%, 94%);
+}
+
+.visited\:text-groupHoverColor:visited {
+  color: hsl(219 14% 63% );
+}
+
+.hover\:bg-PMHoverColor:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(211 68% 94% / var(--tw-bg-opacity));
 }
 
 .hover\:text-groupHoverColor:hover {
+  --tw-text-opacity: 1;
+  color: hsl(219 14% 63% / var(--tw-text-opacity));
+}
+
+.hover\:text-gNameColor:hover {
+  --tw-text-opacity: 1;
+  color: hsl(219 85% 26% / var(--tw-text-opacity));
+}
+
+.active\:text-groupHoverColor:active {
   --tw-text-opacity: 1;
   color: hsl(219 14% 63% / var(--tw-text-opacity));
 }
