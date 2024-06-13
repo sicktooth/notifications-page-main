@@ -762,14 +762,14 @@ video {
   color: hsl(219 85% 26% / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-postColor {
   --tw-text-opacity: 1;
   color: hsl(0 1% 36% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -798,10 +798,6 @@ video {
   color: hsl(0, 0%, 46%);
 }
 
-.test {
-  background-color:  hsl(211, 68%, 94%);
-}
-
 .hover\:bg-PMHoverColor:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(211 68% 94% / var(--tw-bg-opacity));
@@ -820,4 +816,53 @@ video {
 .hover\:text-postColor:hover {
   --tw-text-opacity: 1;
   color: hsl(0 1% 36% / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:w-3\/4 {
+    width: 75%;
+  }
+
+  .sm\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .sm\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }
