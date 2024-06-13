@@ -41,7 +41,7 @@
             <h1 class="font-black text-lg">Notifications</h1>
             <var class="bg-gNameColor rounded-md pb-2 text-white w-6 h-6 ml-2">3</var>
           </header>
-          <div class="text-sm ml-auto cursor-pointer clearRead">Mark all as read</div>
+          <div class="text-sm ml-auto cursor-pointer clearRead hover:text-gNameColor">Mark all as read</div>
         </nav>
         
         <section class="mt-9">
@@ -51,7 +51,7 @@
             <div class="flex flex-col text-start">
               <div class="flex flex-wrap items-center">
                 <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Mark Webber</h2>
-                <p>reacted to your recent post<strong class="postColor ml-1.5">My first tournament today!</strong></p>
+                <p>reacted to your recent post<strong class="text-postColor hover:text-gNameColor cursor-pointer ml-1.5">My first tournament today!</strong></p>
                 <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
               </div>
               <div class="inline timeColor">1m ago</div>
@@ -75,7 +75,7 @@
             <div class="flex flex-col text-start">
               <div class="flex flex-wrap items-center">
                 <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Jacob Thompson</h2>
-                <p>has joined your group <strong class="text-gNameColor font-black cursor-pointer">Chess Club</strong></p>
+                <p>has joined your group <strong class="text-gNameColor hover:text-postColor font-black cursor-pointer">Chess Club</strong></p>
                 <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
               </div>
               <div class="inline timeColor">1 day ago</div>
@@ -113,11 +113,10 @@
 
           <article class="flex p-5 rounded-xl mb-2">
             <img src="./assets/images/avatar-nathan-peterson.webp" class="w-12 h-12 mr-4" alt="Nathan's dp">
-            <div class="flex flex-col text-start">
-              <!-- <div class="flex flex-wrap items-center"> -->
-                
-                <p><strong class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Nathan Peterson</strong>reacted to your recent post<strong class="postColor ml-1.5">5 end-game strategies to increase your win rate</strong></p>
-              <!-- </div> -->
+            <div class="flex flex-col text-start">                
+                <p>
+                  <strong class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Nathan Peterson</strong>reacted to your recent post<strong class="text-postColor hover:text-gNameColor cursor-pointer ml-1.5">5 end-game strategies to increase your win rate</strong>
+                </p>
               <div class="inline timeColor">2 weeks ago</div>
             </div>
           </article>
@@ -127,7 +126,9 @@
             <div class="flex flex-col text-start">
               <div class="flex flex-wrap items-center">
                 <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Anna Kim</h2>
-                <p>left the group <a href="#"><strong class="text-gNameColor font-black hover:text-groupHoverColor cursor-pointer">Chess Club</strong></a></p>
+                <p>
+                  left the group <strong class="text-gNameColor font-black hover:text-groupHoverColor cursor-pointer gName">Chess Club<strong>
+                </p>
               </div>
               <div class="inline timeColor">2 weeks ago</div>
             </div>

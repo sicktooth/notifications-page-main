@@ -3,7 +3,6 @@ const clear = $(".clearRead"),
     number = $("var"),
     newNotify = $(".removeBg");
 
-$("article").css("cursor", "pointer")
 clear.on("click", function () {
     clearRead.removeClass("redDot");
     number.text("0");
