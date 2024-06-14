@@ -8,10 +8,11 @@ module.exports = {
         'PMHoverColor': 'hsl(211, 68%, 94%)',
         'gNameColor': 'hsl(219, 85%, 26%)',
         'newNotifyBgColor': 'hsl(210, 60%, 98%)',
-        'postColor': 'hsl(0, 1%, 36%)'
+        'postColor': 'hsl(0, 1%, 36%)',
+        'redDot': 'hsl(1, 90%, 64%)'
       },
       screens: {
-        '3sm': '319px',
+        '3sm': '320px',
         '2sm': '374px'
       }
     },

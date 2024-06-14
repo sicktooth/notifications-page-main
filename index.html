@@ -33,8 +33,8 @@
 
     
     
-    <main class="w-2/4 3sm:w-full mx-auto mt-8">
-      <section class="px-6 pt-7 pb-1.5 text-center place-content-center bg-white rounded-2xl shadow-lg">
+    <main class="lg:w-2/4 3sm:w-full mx-auto lg:mt-8">
+      <section class="lg:px-6 3sm:px-5 pt-7 pb-1.5 text-center place-content-center bg-white rounded-2xl shadow-lg">
 
         <nav class="flex">
           <header class="flex items-center">
@@ -44,15 +44,16 @@
           <div class="text-sm ml-auto cursor-pointer clearRead hover:text-gNameColor">Mark all as read</div>
         </nav>
         
-        <section class="mt-9">
+        <section class="lg:mt-9 3sm:mt-5">
           
           <article class="flex bg-newNotifyBgColor p-5 rounded-xl mb-2 removeBg">
             <img src="./assets/images/avatar-mark-webber.webp" class="w-12 h-12 mr-4" alt="Mark's dp">
             <div class="flex flex-col text-start">
-              <div class="flex flex-wrap items-center">
-                <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Mark Webber</h2>
-                <p>reacted to your recent post<strong class="text-postColor hover:text-gNameColor cursor-pointer ml-1.5">My first tournament today!</strong></p>
-                <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
+              <div class="flex items-center">
+                <p>
+                  <strong class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Mark Webber</strong>reacted to your recent post<strong class="text-postColor hover:text-gNameColor cursor-pointer ml-1.5">My first tournament today!</strong>
+                </p>
+                <div class="inline-block redDot shrink-0 ml-2 w-2 h-2 redDot rounded-full"></div>
               </div>
               <div class="inline timeColor">1m ago</div>
             </div>
@@ -61,10 +62,11 @@
           <article class="flex bg-newNotifyBgColor p-5 rounded-xl mb-2 removeBg">
             <img src="./assets/images/avatar-angela-gray.webp" class="w-12 h-12 mr-4" alt="Angela's dp">
             <div class="flex flex-col text-start">
-              <div class="flex flex-wrap items-center">
-                <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Angela Grey</h2>
-                <p>followed you</p>
-                <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
+              <div class="flex items-center">
+                <p>
+                  <strong class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Angela Grey</strong>followed you
+                </p>
+                <div class="inline-block redDot ml-2 w-2 h-2 redDot rounded-full shrink-0"></div>
               </div>
               <div class="inline timeColor">5m ago</div>
             </div>
@@ -73,10 +75,11 @@
           <article class="flex bg-newNotifyBgColor p-5 rounded-xl mb-2 removeBg">
             <img src="./assets/images/avatar-jacob-thompson.webp" class="w-12 h-12 mr-4" alt="Jacob's dp">
             <div class="flex flex-col text-start">
-              <div class="flex flex-wrap items-center">
-                <h2 class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Jacob Thompson</h2>
-                <p>has joined your group <strong class="text-gNameColor hover:text-postColor font-black cursor-pointer">Chess Club</strong></p>
-                <div class="redDot ml-2 w-2 h-2 redDot rounded-full"></div>
+              <div class="items-center">
+                <p class="after:inline-block after:bg-redDot after:ml-2 after:w-2 after:h-2 after:rounded-full">
+                  <strong class="font-bold mr-2 hover:text-gNameColor cursor-pointer">Jacob Thompson</strong> has joined your group <strong class="text-gNameColor hover:text-postColor font-black cursor-pointer">Chess Club</strong>
+                </p>
+                <div class=""></div>
               </div>
               <div class="inline timeColor">1 day ago</div>
             </div>
@@ -108,7 +111,7 @@
                 <div class="inline timeColor">1 week ago</div>
               </div>
             </div>
-            <img src="./assets/images/image-chess.webp" class="w-11 ml-auto cursor-pointer" alt="my pic"> 
+            <img src="./assets/images/image-chess.webp" class="h-11 w-11 ml-auto cursor-pointer" alt="my pic"> 
           </article>
 
           <article class="flex p-5 rounded-xl mb-2">
