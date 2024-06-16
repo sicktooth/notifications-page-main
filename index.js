@@ -8,5 +8,5 @@ clear.on("click", function () {
     newNotify.removeClass("bg-newNotifyBgColor");
 });  /**
  * Event handler for the clear button click event.
- * Removes the 'redDot' class from the 'clearRead' element.
+ * makes the new notification appear as old.
  */
