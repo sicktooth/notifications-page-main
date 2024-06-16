@@ -2,6 +2,12 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
+    fontSize: {
+      tab: '120%',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.5rem'
+    },    
     extend: {
       colors: {
         'groupHoverColor': 'hsl(219, 14%, 63%)',

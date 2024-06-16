@@ -599,24 +599,8 @@ video {
   display: flex;
 }
 
-.h-11 {
-  height: 2.75rem;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
 .h-6 {
   height: 1.5rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
-.w-12 {
-  width: 3rem;
 }
 
 .w-6 {
@@ -674,10 +658,6 @@ video {
   padding: 1rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -712,12 +692,6 @@ video {
 
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .font-black {
@@ -763,11 +737,6 @@ video {
 
 .timeColor {
   color: hsl(0, 0%, 46%);
-}
-
-.after\:relative::after {
-  content: var(--tw-content);
-  position: relative;
 }
 
 .after\:ml-2::after {
@@ -826,44 +795,68 @@ video {
     margin-top: 1.25rem;
   }
 
+  .\33sm\:h-12 {
+    height: 3rem;
+  }
+
   .\33sm\:h-9 {
     height: 2.25rem;
   }
 
-  .\33sm\:w-full {
-    width: 100%;
+  .\33sm\:w-12 {
+    width: 3rem;
   }
 
   .\33sm\:w-9 {
     width: 2.25rem;
   }
 
-  .\33sm\:p-2 {
-    padding: 0.5rem;
+  .\33sm\:w-full {
+    width: 100%;
   }
 
   .\33sm\:p-3 {
     padding: 0.75rem;
   }
 
-  .\33sm\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+  .\33sm\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
-  .\33sm\:px-4 {
+  .\33sm\:text-lg {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:h-14 {
+    height: 3.5rem;
+  }
+
+  .sm\:h-20 {
+    height: 5rem;
+  }
+
+  .sm\:w-14 {
+    width: 3.5rem;
+  }
+
+  .sm\:w-20 {
+    width: 5rem;
+  }
+
+  .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .\33sm\:px-3 {
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
+  .sm\:text-tab {
+    font-size: 120%;
   }
 
-  .\33sm\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  .sm\:text-xl {
+    font-size: 1.5rem;
   }
 }
 
@@ -880,12 +873,20 @@ video {
     height: 2.75rem;
   }
 
-  .lg\:w-2\/4 {
-    width: 50%;
+  .lg\:h-12 {
+    height: 3rem;
   }
 
   .lg\:w-11 {
     width: 2.75rem;
+  }
+
+  .lg\:w-12 {
+    width: 3rem;
+  }
+
+  .lg\:w-2\/4 {
+    width: 50%;
   }
 
   .lg\:p-5 {
@@ -895,5 +896,13 @@ video {
   .lg\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
   }
 }
