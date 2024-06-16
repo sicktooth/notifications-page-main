@@ -1,10 +1,13 @@
 const clear = $(".clearRead"),
-    // clearRead = $(""), STILL WORKING ON IT
+    after = $(".redDot"),
     number = $("var"),
     newNotify = $(".removeBg");
 
 clear.on("click", function () {
-    // clearRead.removeClass(""); HERE TOO
+    if (after) {
+       const style = window.getComputedStyle(after, ':after');
+       style.css('display', 'none');
+    }
     number.text("0");
     newNotify.removeClass("bg-newNotifyBgColor");
 });  /**
