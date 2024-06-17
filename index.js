@@ -1,12 +1,14 @@
-const clear = $(".clearRead"),
-    number = $("var"),
-    newNotify = $(".removeBg");
+const clearButton = $(".clearRead"),
+    notificationCount = $("var"),
+    newNotificationTag = $(".redDot"),
+    newNotificationElement = $(".removeBg");
 
-clear.on("click", function () {
-    $('style').append(".redDot::after{ display:none}")
-    number.text("0");
-    newNotify.removeClass("bg-newNotifyBgColor");
-});  /**
- * Event handler for the clear button click event.
- * makes the new notification appear as old.
- */
+clearButton.click(function () {
+    newNotificationTag.removeClass("after:inline-block after:bg-redDot after:ml-2 after:w-2 after:h-2 after:rounded-full");
+    notificationCount.text("0");
+    newNotificationElement.removeClass("bg-newNotifyBgColor");
+}); 
+/**
+* Event handler for the clear button click event.
+* Makes the new notification appear as old.
+*/

@@ -6,7 +6,8 @@ module.exports = {
       tab: '120%',
       base: '1rem',
       lg: '1.125rem',
-      xl: '1.5rem'
+      xl: '1.5rem',
+      xs: '0.69rem'
     },    
     extend: {
       colors: {
@@ -15,7 +16,8 @@ module.exports = {
         'gNameColor': 'hsl(219, 85%, 26%)',
         'newNotifyBgColor': 'hsl(210, 60%, 98%)',
         'postColor': 'hsl(0, 1%, 36%)',
-        'redDot': 'hsl(1, 90%, 64%)'
+        'redDot': 'hsl(1, 90%, 64%)',
+        'footer': 'hsl(228, 45%, 44%)'
       },
       screens: {
         '3sm': '320px',

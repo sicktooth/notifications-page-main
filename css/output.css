@@ -607,6 +607,10 @@ video {
   width: 1.5rem;
 }
 
+.cursor-default {
+  cursor: default;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -690,8 +694,8 @@ video {
   text-align: start;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xs {
+  font-size: 0.69rem;
 }
 
 .font-black {
@@ -700,6 +704,11 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.text-footer {
+  --tw-text-opacity: 1;
+  color: hsl(228 45% 44% / var(--tw-text-opacity));
 }
 
 .text-gNameColor {
@@ -788,6 +797,11 @@ video {
 .hover\:text-postColor:hover {
   --tw-text-opacity: 1;
   color: hsl(0 1% 36% / var(--tw-text-opacity));
+}
+
+.hover\:\*\:text-gNameColor > *:hover {
+  --tw-text-opacity: 1;
+  color: hsl(219 85% 26% / var(--tw-text-opacity));
 }
 
 @media (min-width: 320px) {
